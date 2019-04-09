@@ -1,0 +1,218 @@
+html body{
+  margin:0;
+  padding:0;
+}
+body{
+	  font-family: 'Work Sans', sans-serif;
+
+}
+
+header{
+  background-color:#fff;
+  position: fixed;
+  width: 100%;
+
+}
+
+header::after{
+	content: '';
+	display: table;
+	clear: both;
+}
+
+nav{
+
+	float: right;
+}
+
+
+nav ul{
+	margin:40px;
+
+	padding: 0;
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-left: 50px;
+	padding-top:22px;
+	position: relative;
+	text-decoration-style: none;
+}
+nav a{
+	color: green;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+nav a:hover{
+	color: #fcaa62;
+}
+nav a::before{
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color:#fcaa62;
+
+	position:absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 500ms;
+}
+
+nav a:hover::before{
+	width: 100%;
+}
+
+.logo1{
+	height: 50px;
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 50px;
+}
+.container{
+    max-height: 200px;
+    margin: auto;
+    background: #f2f2f2;
+}
+footer{
+    padding: 10px;
+    font-size: 12px;
+    text-align: left;
+    background: #33302e;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 1px;
+}
+.fundit{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+}
+
+#wrap
+            {
+	        background-color: #222222;
+                width: 100%;
+                height: 235px;
+                letter-spacing: 1px;
+            }
+            .left
+            {
+             width: 35%;
+             height: 100%;
+             float: left;
+            }
+            .right
+            {
+		color: #c8c8c8;    
+                width: 55%;
+                height: 100%;
+                float: right;
+            }
+            
+:placeholder-shown {
+    background: #33302e;
+    
+}
+::placeholder { 
+    color : white;
+    opacity: 1;
+}
+
+.rrjetetSociale     
+{
+    margin : 30px 0 0 20px ;
+}
+#rrjetetSociale1
+{
+    margin-left:30px;
+}
+#rrjetetSociale2{
+    margin-left: 30px;
+}
+#rrjetetSociale3{
+     margin-left:35px;
+}
+.paragrafi
+{
+    font-family: courier;
+    
+}
+
+.hnje{
+    font-family: "Times New Roman";  
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.gallery{
+    margin: 50px;
+    float: left;
+    width: 260px;
+    height: 500px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+.desc{
+    text-align: left;
+}
+.pjesa2 
+{
+   
+    font-size: 12px;
+    text-align: left;
+    background: #33302e;
+    color: white;
+    font-family: Arial;
+    letter-spacing: 1px;
+    width: 100%;
+    height: auto;
+}
+#wrap1
+{
+    width: 100%;
+    height: 366px;
+    background-color: #e4dfff; 
+    letter-spacing: 1px;
+}
+.left1
+{padding: 4px 0 0 4px;
+    width: 26%;
+    height: 100%;
+    float: left;
+}
+.right1
+{
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+h5
+{
+    font-family: Trebuchet MS;
+}
+
+.fdiv
+            {
+                width: auto; height: auto;
+            }
+           .fdiv1
+           {
+               float: left;
+               width: 25%; 
+               height: 400px;
+           }
+           #dh3
+           {
+               text-transform: uppercase;
+               font-family: Times;
+           }
+
